@@ -8,7 +8,7 @@ Una tarde en la que @el_y0rtx y @txurdi decidimos empezar a cambiar nuestra form
 queremos aprender a usar TDD y que mejor que empezar con una kata. La idea la sacamos de [Katayunos](http://katayunos.com/)
 
 ## Kata elegida: KataMinesweeper
-Dado un tablero del conocido juego Buscaminas en el siguiente formato: *,.,.,.|.,.,.,.|.,*,.,.|.,.,.,. donde los * son minas, 
+Dado un tablero del conocido juego Buscaminas en el siguiente formato: "*,.,.,.|.,.,.,.|.,*,.,.|.,.,.,." donde los * son minas, 
 los . son casillas en blanco rellenar las casillas y las | indican un cambio de linea con numeros que indiquen las minas que 
 hay en casillas adyacentes siguiendo el formato indicado a continuacion: *100|2210|1*10|1110
 [Kata en codingdojo.org](http://codingdojo.org/cgi-bin/wiki.pl?KataMinesweeper)
@@ -20,9 +20,9 @@ NOTA: Hemos decidido emplear arrays para la resolución del problema porque quer
 - Si nos dan .,. devolvemos 00
 - Si nos dan *,. devolvemos *1
 - ...
-- Si nos dan *,.,.,.|.,.,.,.|.,*,.,.|.,.,.,. devolvemos *100|2210|1*10|1110
+- Si nos dan "*,.,.,.|.,.,.,.|.,*,.,.|.,.,.,." devolvemos *100|2210|1*10|1110
 - ...
-Creamos una batería de pruebas con las combinaciones que nos pueden parecer conflictivas.
+- Creamos una batería de pruebas con las combinaciones que nos pueden parecer conflictivas.
 
 ## Conclusiones:
 - En la anterior decíamos que "No hemos guardado las versiones del programa según hacíamos los test, prometemos hacerlo en la siguiente kata!". Esta vez lo hemos hecho copiando los metodos y añadiendo _XX del número de test. Para la próxima lo haremos con versiones de GIT.
