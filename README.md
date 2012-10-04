@@ -1,7 +1,7 @@
 KataMinesweeper (2nd kata)
 ==========================
 7 de Febrero de 2012.
-
+..
 
 ## ¿Qué es esto?
 Una tarde en la que @el_y0rtx y @txurdi decidimos empezar a cambiar nuestra forma de programar. Queremos hacer las cosas bien, 
