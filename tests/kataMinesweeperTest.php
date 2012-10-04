@@ -1,5 +1,5 @@
 <?php
-include_once "kataMinesweeper.php";
+include_once "../kataMinesweeper.php";
 
 
 class kataMinesweeperTest extends PHPUnit_Framework_TestCase {
